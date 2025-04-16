@@ -10,7 +10,7 @@ from azure.core.exceptions import HttpResponseError
 st.set_page_config(page_title="Chatbot By Pk", layout="wide")
 
 # --- Credentials and Client Initialization ---
-AZURE_API_KEY = "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"  # Replace with your actual key
+AZURE_API_KEY = "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"  # Replace with your actual key
 AZURE_ENDPOINT = "https://models.inference.ai.azure.com"
 
 client = ChatCompletionsClient(
